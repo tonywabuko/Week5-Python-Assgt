@@ -1,4 +1,4 @@
-#1. Assignment 1: Design Your Own Class! 🏗️
+#1. Assignment 1: Designing Own Class
 
 class FootballPlayer:
     def __init__(self, name, position, stamina, skill_level):
@@ -14,7 +14,7 @@ class FootballPlayer:
 class Goalkeeper(FootballPlayer):
     def __init__(self, name, stamina, skill_level, clean_sheets):
         super().__init__(name, "Goalkeeper", stamina, skill_level)
-        self.__clean_sheets = clean_sheets  # Encapsulated (private) attribute
+        self.__clean_sheets = clean_sheets 
 
     def play(self):
         # Polymorphism — overriding the base method
